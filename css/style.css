@@ -1,0 +1,265 @@
+@import "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css";
+
+/* estilo principal */
+
+.font-fira-code{
+    font-family: "Fira code", sans-serif;
+}
+.font-montserrat{
+    font-family: "Montserrat", sans-serif;
+}
+.font-roboto{
+    font-family: "Roboto", sans-serif;
+}
+.font-sora{
+    font-family: "Sora", sans-serif;
+}
+
+ul{
+  list-style:nome;
+}
+
+
+
+.mw-240{
+    max-width: 240px;
+}
+.font-size-8{
+  font-size: 2rem;
+}
+.bg-pink-500{
+    background: #C60177;
+}
+.bg-gray-100{
+    background: #fbfbfb;
+}
+.bg-blue-500{
+  background: #05C7F2 !important;
+}
+.bg-green-300{
+  background: #07F9A0 !important;
+}
+
+.cabecalho{
+  background:rgba(0,0,0, 0.3);
+  z-index: 999;
+  backdrop-filter: blur(3px)
+}
+.cabecalho .active{
+  color: #07F9A0;
+  border-bottom: #07F9A0 3px solid;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 25%, rgba(0,0,0,.3) 100%);
+}
+a{
+  color:#ffffff !important;
+  transform: .4s linear;
+}
+.text-decoration-none{
+  text-decoration: none !important;
+}
+
+a:hover{
+  color: #b1fbe0 !important;
+}
+
+.btn-outline-pink:hover{
+    border-color: #C60177;
+    background: #C60177;
+    color: #FFF; 
+}
+.btn-outline-pink:active{
+    border-color: #C60177 !important;
+    background: rgb(198, 1, 119) !important;
+    color: #FFF; 
+}
+.btn-outline-pink:focus{
+    border-color: #C60177 !important;
+    background: rgb(198, 1, 119) !important;
+    color: #FFF; 
+    box-shadow: 0 0 0 0.2rem rgba(198, 1, 119, .5) !important; 
+}
+
+
+
+
+
+.title-top-box{
+    top: -0.8rem;
+    left: 1rem;
+    background: #fff;
+}
+.w-64{
+	min-width: 16rem !important;
+}
+.h--50{
+    height: 12.5rem;
+}
+.h--35{
+    height: 8.75rem;
+}
+.p-none{
+    padding: 0;
+}
+.gap-16{
+    row-gap: 4rem;
+    column-gap: 4rem;
+}
+
+.img-full{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.p-6{
+    padding: 1.5rem;
+}
+
+.gap-8{
+  gap: 2rem;
+}
+
+.h1{
+	color: #ffffff;
+	font-family: "Inter", Sans-serif;
+}
+
+.container2 div {
+	margin: 10px;
+	font-size: 18px;
+}
+
+.container2 {
+	display: flex;
+	justify-content: center;
+}
+
+.card1 {
+	display: flex;
+	flex-direction: column;
+}
+
+.conteudo-card {
+	border-radius: 10px;
+}
+
+
+
+.gap-5{
+  gap: 1.25rem
+}
+.row-nowrap{
+  flex-wrap: nowrap !important;
+}
+
+footer{
+  background: #05c7f2;
+  color:#fff;
+  min-height: 400px;
+}
+.onda{
+  top:-92px
+}
+
+.d-grid{
+	display:grid!important;
+}
+.grid-cols-2{
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.justify-items-center{
+	justify-items: center;
+}
+
+button:focus{
+	outline: 0 !important;
+}
+
+@media (min-width: 576px) {
+	.gap-sm-2{
+		gap: .5rem;
+	}
+	.gap-sm-8{
+		row-gap: 1rem;
+		column-gap: 1rem;
+	}
+	.gap-sm-0{
+		gap: 0;
+	}
+	.gap-row-sm-2{
+		row-gap: .5rem;
+	}
+}
+@media (min-width: 768px){
+    .h-md-50{
+        height: 12.5rem;
+    }
+    .colunas{
+        gap: 1rem;
+    }
+}
+@media (min-width: 992px) {
+    .colunas{
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr);
+    }
+ }
+
+
+.spinner {
+	display: block;
+   width: 16px;
+   height: 16px;
+   border-radius: 50%;
+   border: 2px solid #474bff;
+   animation: spinner-bulqg1 0.8s infinite linear alternate,
+        spinner-oaa3wk 1.6s infinite linear;
+}
+
+@keyframes spinner-bulqg1 {
+   0% {
+      clip-path: polygon(50% 50%, 0 0, 50% 0%, 50% 0%, 50% 0%, 50% 0%, 50% 0%);
+   }
+
+   12.5% {
+      clip-path: polygon(50% 50%, 0 0, 50% 0%, 100% 0%, 100% 0%, 100% 0%, 100% 0%);
+   }
+
+   25% {
+      clip-path: polygon(50% 50%, 0 0, 50% 0%, 100% 0%, 100% 100%, 100% 100%, 100% 100%);
+   }
+
+   50% {
+      clip-path: polygon(50% 50%, 0 0, 50% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%);
+   }
+
+   62.5% {
+      clip-path: polygon(50% 50%, 100% 0, 100% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%);
+   }
+
+   75% {
+      clip-path: polygon(50% 50%, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 50% 100%, 0% 100%);
+   }
+
+   100% {
+      clip-path: polygon(50% 50%, 50% 100%, 50% 100%, 50% 100%, 50% 100%, 50% 100%, 0% 100%);
+   }
+}
+
+@keyframes spinner-oaa3wk {
+   0% {
+      transform: scaleY(1) rotate(0deg);
+   }
+
+   49.99% {
+      transform: scaleY(1) rotate(135deg);
+   }
+
+   50% {
+      transform: scaleY(-1) rotate(0deg);
+   }
+
+   100% {
+      transform: scaleY(-1) rotate(-135deg);
+   }
+}
